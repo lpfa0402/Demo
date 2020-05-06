@@ -6,9 +6,9 @@ import router from './router'
 import '@/config'
 // 引入vuex模块
 import store from './store/index'
-import less from 'less'
+// import less from 'less'
 
-Vue.use(less)
+// Vue.use(less)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
