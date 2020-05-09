@@ -10,15 +10,15 @@ const AsyncComponent = __name__ => () => import(`@/pages/${__name__}`)
 // 菜单路由
 const menuRoutes = [
   {
-    path: '/ceshi',
-    meta: { title: '基础组件B', icon: 'el-icon-s-tools' },
+    path: '/Function',
+    meta: { title: '功能组件', icon: 'el-icon-s-tools' },
     redirect: '/',
     component: RouteView,
     children: [
       {
-        path: '/ceshi/ceshi',
-        meta: { title: '组件san' },
-        component: AsyncComponent('ceshi/ceshi')
+        path: '/Function/ExportFile',
+        meta: { title: '导出文件' },
+        component: AsyncComponent('Function/ExportFile')
       }
     ]
   }

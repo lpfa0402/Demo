@@ -14,6 +14,7 @@ import UploadCropper from '@/components/UploadCropper'
 import UploadFile from '@/components/UploadFile'
 import BreakSpace from '@/components/BreakSpace'
 import Tinymce from '@/components/Tinymce'
+import JsonToExcel from '@/components/JsonToExcel'
 Vue.use(ElementUI, { size: 'small', zIndex: 1000 })
 
 // 注册全局组件
@@ -26,3 +27,4 @@ Vue.use(UploadCropper)
 Vue.use(UploadFile)
 Vue.use(BreakSpace)
 Vue.use(Tinymce)
+Vue.use(JsonToExcel)

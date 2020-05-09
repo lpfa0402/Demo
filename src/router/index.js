@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // 引入组件模块
 import Home from './home'
-import ceshi from './ceshi'
+import Function from './Function'
 import Navigations from './Navigations'
 import Basic from './Basic'
 import Form from './Form'
@@ -23,7 +23,7 @@ export const constantRouterMap = [
     component: BasicLayout,
     children: [
       ...Home,
-      ...ceshi,
+      ...Function,
       ...Navigations,
       ...Basic,
       ...Form

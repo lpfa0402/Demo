@@ -21,16 +21,15 @@ export default {
       ]
     },
     {
-      path: '/ceshi',
-      key: '/ceshi',
-      title: '基础组件B',
+      path: '/Function',
+      key: '/Function',
+      title: '功能组件',
       icon: 'el-icon-s-check',
       children: [
         {
-          path: '/ceshi/ceshi',
-          key: '/ceshi/ceshi',
-          title: '组件san',
-          icon: 'el-icon-s-check'
+          path: '/Function/ExportFile',
+          key: '/Function/ExportFile',
+          title: '导出文件'
         }
       ]
     },
@@ -103,11 +102,11 @@ export default {
           key: '/Form/BreakSpace',
           title: 'BreakSpace 分隔符'
         },
-        {
-          path: '/Form/Tinymce',
-          key: '/Form/Tinymce',
-          title: 'Tinymce 富文本'
-        },
+        // {
+        //   path: '/Form/Tinymce',
+        //   key: '/Form/Tinymce',
+        //   title: 'Tinymce 富文本'
+        // },
         {
           path: '/Form/FormPanel',
           key: '/Form/FormPanel',
