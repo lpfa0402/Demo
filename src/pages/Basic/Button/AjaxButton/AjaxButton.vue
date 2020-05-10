@@ -1,10 +1,12 @@
 <template>
   <div>
-    <AjaxButton size="small" type="primary" :click="submitClaimInfo">提交</AjaxButton>
+    <AjaxButton :click="saveHandle" size="small" type="primary">提交</AjaxButton>
   </div>
 </template>
 <script>
 import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
+import '@/mock/AjaxButton.js'
+import {reqPost} from '@/api'
 export default {
   name: 'Tabs',
   components: {
@@ -17,10 +19,9 @@ export default {
       replace: false
     }
   },
-  mounted () {
-  },
   methods: {
-    submitClaimInfo () {
+    async saveHandle (type) {
+      await reqPost()
     }
   }
 }

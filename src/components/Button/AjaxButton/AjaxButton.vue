@@ -1,8 +1,3 @@
-<template>
-  <div>
-    {{num}}
-  </div>
-</template>
 <script>
 import {myMixin} from './mixin.js'
 export default {
